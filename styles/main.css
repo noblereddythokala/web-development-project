@@ -16,6 +16,7 @@ header nav ul{
     text-decoration: none;
     list-style: none;
     display: flex;
+    align-items: center;
     background-color: rgb(253, 142, 6);
     
   
@@ -23,11 +24,13 @@ header nav ul{
 
 }
 header nav li{
-    display: inline;
-    border-radius:  10%;
+    display: flex;
+    align-items: center;
     font-weight: bolder;
-    margin-right: 200px;
-
+    align-content: left;
+    width: 211px;
+    background-color: rgb(253, 142, 6);
+    
 }
 
 
@@ -36,7 +39,7 @@ header nav li{
 header nav a {
     text-decoration: none;
     color: black;
-    text-shadow: 10%;
+   
      
 } 
 
@@ -50,6 +53,6 @@ header nav li img{
 
 }
 header nav li:hover{
-    background-color: rgba(226, 127, 13, 0.961);
+    background-color: rgba(34, 156, 232, 0.961);
 }
 
