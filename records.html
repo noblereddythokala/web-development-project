@@ -7,7 +7,7 @@
     <title>INCA HOSPITALS</title>
 
     <link rel="icon" type="image/x-icon" href="images/hospitallogo.png">
-    <link rel="stylesheet" href="styles/appointment-styles.css">
+    <link rel="stylesheet" href="styles/record.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
@@ -30,7 +30,7 @@
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="appointments.html">APPOINTMENTS</a></li>
-                    <li><a href="records.html">RECORDS</a></li>
+                    <li><a href="Patient Records.html">RECORDS</a></li>
                     <li><a href="visit.html">VISIT</a></li>
                     <li><a href="feedbackform.html">FEEDBACK</a></li>
                     <li><a href="Contact Support.html">SUPPORT</a></li>
@@ -39,44 +39,36 @@
         </div>
     </nav>
     <main>
-        <h2>Doctor Appointment Form</h2>
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" required>
-            </div>
-            <div class="form-group">
-                <label for="date">Preferred Appointment Date:</label>
-                <input type="date" id="date" name="date" required>
-            </div>
-            <div class="form-group">
-                <label for="time">Preferred Appointment Time:</label>
-                <input type="time" id="time" name="time" required>
-            </div>
-            <div class="form-group">
-                <label for="doctor">Select Doctor:</label>
-                <select id="doctor" name="doctor" required>
-                    <option value="dr_smith">Dr. Smith</option>
-                    <option value="dr_jones">Dr. Jones</option>
-                    <option value="dr_brown">Dr. Brown</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="message">Additional Message:</label>
-                <textarea id="message" name="message" rows="4" cols="50"></textarea>
-            </div>
-            <button type="submit">Submit</button>
-        </form>
+        <section class="hero">
+            <div class="container">
+                <div class="content">
+                    <h2>Search Records</h2>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="search_type">Search By:</label>
+                            <select id="search_type" name="search_type" required>
+                                <option value="application_number">Application Number</option>
+                                <option value="name">Name</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="search_query">Enter Query:</label>
+                            <input type="text" id="search_query" name="search_query" required>
+                        </div>
+                        <button type="submit">Search</button>
+                    </form>
 
+                </div>
+            </div>
+        </section>
     </main>
+
+
+
+
+
+
+
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
@@ -113,6 +105,9 @@
             <p>&copy; 2024 Hospital Management System. All rights reserved.</p>
         </div>
     </footer>
+
+
+
 
 </body>
 
