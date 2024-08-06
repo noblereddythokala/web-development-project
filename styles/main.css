@@ -49,9 +49,7 @@ image {
 .navbar .menu ul {
     display: flex;
     width: 1265px;
-   ;
-    
-
+   
 
 
 
@@ -59,7 +57,7 @@ image {
 }
 
 .navbar ul li a {
-    padding: 10px 50px;
+    padding: 10px 35px;
     display: inline-block;
     font-size: large;
     font-weight: bold;
@@ -126,7 +124,7 @@ image {
 
 }
 .hero p{
-    color: rgb(196, 112, 213);
+    color: rgb(23, 9, 219);
     font-size: medium;
     font-weight: bold;
     font-family: sans-serif;
@@ -143,7 +141,7 @@ image {
 .content{
     padding-top: 125px;
     width: 600px;
-    background-color: rgb(186, 208, 227);
+    background-color: rgb(201, 201, 201);
     
 }
 .footer {
