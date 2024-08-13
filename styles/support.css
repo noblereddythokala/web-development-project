@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+form{
+    padding-bottom: 10px;
+}
 body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
@@ -40,7 +43,8 @@ img {
 
 .navbar .menu ul {
     display: flex;
-    width: 1265px;
+    width: 1550px;
+    padding-left: 10%;
 }
 
 .navbar ul li a {

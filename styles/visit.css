@@ -38,9 +38,14 @@ img {
     z-index: 1000;
 }
 
+form{
+    padding-bottom: 10px;
+}
+
 .navbar .menu ul {
     display: flex;
-    width: 1265px;
+    width: 1550px;
+    padding-left: 10%;
 }
 
 .navbar ul li a {

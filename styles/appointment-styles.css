@@ -25,6 +25,10 @@ img {
     max-width: 100%;
 }
 
+form{
+    padding-bottom: 10px;
+}
+
 /* Navbar Styles */
 .navbar .container {
     background-color: rgb(43, 44, 43);
@@ -40,7 +44,8 @@ img {
 
 .navbar .menu ul {
     display: flex;
-    width: 1265px;
+    width: 1550px;
+    padding-left: 10%;
 }
 
 .navbar ul li a {
