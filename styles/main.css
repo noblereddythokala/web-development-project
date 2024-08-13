@@ -105,8 +105,8 @@ main {
 }
 
 .section img {
-    width: 100%; /* Ensures image fills the section */
-    border-radius: 8px; /* Optional: Apply border-radius to images as well */
+    width: 100%;
+    border-radius: 8px;
 }
 
 
