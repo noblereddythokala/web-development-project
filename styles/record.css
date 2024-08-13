@@ -62,6 +62,16 @@ img {
     color: goldenrod;
 }
 
+.navbar ul li.active a {
+    background-color: rgb(194, 181, 147);
+    color: white;
+    border-radius: 5px;
+    transition: 2s;
+}
+
+.navbar ul li.active a i {
+    color: white;
+}
 .logo {
     float: left;
     justify-content: center;
