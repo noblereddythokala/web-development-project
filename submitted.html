@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -5,12 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="device-width inital-scale =1.0">
     <title>INCA HOSPITALS</title>
-
     <link rel="icon" type="image/x-icon" href="images/hospitallogo.png">
-    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/submitted.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-
 </head>
 
 
@@ -28,58 +26,20 @@
 
             <div class="menu">
                 <ul>
-                    <li><a href="index.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+                    <li class="active"><a href="index.html"><i class="fa-solid fa-house"></i> HOME</a></li>
                     <li><a href="appointments.html"><i class="fa-solid fa-calendar-check"></i> APPOINTMENTS</a></li>
                     <li><a href="records.html"><i class="fa-solid fa-file-medical"></i> RECORDS</a></li>
                     <li><a href="visit.html"><i class="fa-solid fa-hospital-user"></i> VISIT</a></li>
-                    <li class="active"><a href="feedbackform.html"><i class="fa-solid fa-comment-medical"></i> FEEDBACK</a></li>
+                    <li><a href="feedbackform.html"><i class="fa-solid fa-comment-medical"></i> FEEDBACK</a></li>
                     <li><a href="Contact Support.html"><i class="fa-solid fa-ticket"></i> SUPPORT</a></li>
                     <li><a href="billing.html" ><i class="fa-solid fa-credit-card"></i> BILLING</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="section">
-        <image src ="images/test1 (1).jpg"></image>
-    </div>
     <main>
-        <h2>Patient Feedback Form</h2>
-        <form action="submitted.html" method="POST">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="phone">Contact Number:</label>
-                <input type="tel" id="phone" name="phone" required>
-            </div>
-            <div class="form-group">
-                <label for="service">Service Received:</label>
-                <input type="text" id="service" name="service" required>
-            </div>
-            <div class="form-group">
-                <label for="rating">Rating:</label>
-                <select id="rating" name="rating" required>
-                    <option value="excellent">Excellent</option>
-                    <option value="good">Good</option>
-                    <option value="average">Average</option>
-                    <option value="poor">Poor</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="comments">Comments:</label>
-                <textarea id="comments" name="comments" rows="4" required></textarea>
-            </div>
-            <button type="submit">Submit Feedback</button>
-        </form>
-
-
-
-
+        <h1>Submitted Successfully!</h1>
+        <p>Thank you for your submission.</p>
     </main>
     <footer class="footer">
         <div class="footer-container">
