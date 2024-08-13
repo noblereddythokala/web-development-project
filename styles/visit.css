@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,6 +25,7 @@ img {
     max-width: 100%;
 }
 
+/* Navbar Styles */
 .navbar .container {
     background-color: rgb(43, 44, 43);
     display: flex;
@@ -61,6 +63,7 @@ img {
 .navbar ul li a:hover {
     color: goldenrod;
 }
+
 .navbar ul li.active a {
     background-color: rgb(194, 181, 147);
     color: white;
@@ -93,22 +96,39 @@ img {
     text-align: center;
 }
 
-main{
-    
+/* Main Section Styles */
+main {
     background-color: #c2dae59e;
-    padding-top: 130px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 500px;
+    width: 50%;
+    margin: 0 auto; /* Center the main content */
+}
+
+.section img {
+    width: 100%; /* Ensures image fills the section */
+    border-radius: 8px; /* Optional: Apply border-radius to images as well */
 }
 
 main h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 0;
     text-align: center;
-    
+}
+
+main button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
 
 .form-group {
@@ -130,46 +150,7 @@ main h2 {
     border-radius: 4px;
 }
 
-main button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Footer Styles */
 .footer {
     background-color: #333;
     color: #fff;
